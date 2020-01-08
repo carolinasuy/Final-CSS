@@ -1,0 +1,302 @@
+@font-face {
+	font-family: 'Dancing Script';
+	src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+	margin-left: 15%;
+	font-family: 'Dancing Script', cursiva;
+	width: 900px;
+	color: #605B56;
+	background: #02010a;
+}
+
+header{
+	background-color: #5b7989;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-family: sans-serif;
+	color: #FFFFFF;
+}
+
+header h1{
+	text-align: left;
+	text-shadow: 2px, #02010A;
+}
+
+header h2{
+	text-align: right;
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a {
+		color: #FFFFFF;
+}
+
+
+table{
+	align: center;
+}
+
+img{
+	filter: drop-shadow(2px #02010a);
+}
+
+#centralimg{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	width: 50%
+}
+
+#central{
+	background: #82c3a6;
+}
+
+#imgsecder{
+	border: solid #d5c75f;
+	width: 99%;
+	height: 64%;
+	float: right;
+}
+
+#img2{
+	width: 60%;
+}
+
+#img3{
+	width: 70%;
+}
+
+#imgsecizq{
+	border: solid #d5c75f;
+	width: 70%;
+	height: 40%;
+	margin-left: inherit;
+	transform: rotate(0deg);
+}
+
+#img2:hover{
+	transform: rotate(10deg);
+	filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+#img3:hover{
+	transform: translateY(5px);
+	transform: translateX(20px);
+	filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+footer {
+	background: #C6d5c5;
+	margin-top: 15px;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#footer{
+	white-space: nowrap;
+}
+
+#Contacto{
+	width: 25%;
+}
+
+#terminos{
+	width: 23%;
+}
+
+#redes{
+	width: 29%;
+}
+
+#derechos{
+	width: 29%;
+}
+
+#imagenessecundarias{
+	background: #d5c75f	;
+}
+
+#img4{
+	width: 33%;
+}
+
+#img5{
+	width: 33%;
+}
+
+#img6{
+	width: 33%;
+}
+
+#img7{
+	width: 33%;
+}
+
+#img8{
+	width: 33%;
+}
+
+#img9{
+	width: 33%;
+}
+
+#imagen4{
+	width:80%;
+	filter: blur(10px);
+}
+
+#imagen5{
+	width: 80%;
+	height: 38%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: grayscale(100%);
+}
+
+#imagen6{
+	width: 80%;
+	float: right;
+	filter: sepia(90);
+}
+
+#imagen7{
+	width: 80%;
+	height: 50%;
+	filter: grayscale(100%);
+}
+
+#imagen8{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagen9{
+	width: 80%;
+	float: right;
+	filter: grayscale(100%);
+}
+
+#cont{
+	width: 25%;
+	text-align: left;
+}
+
+#term{
+	width: 25%;
+}
+
+#rede{
+	width: 30%;
+}
+
+#dere{
+	width: 25%;
+	text-align: justify;
+}
+
+
+#imagen10{
+	width:80%;
+	filter: blur(10px);
+}
+
+#imagen11{
+	width: 80%;
+	height: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: grayscale(100%);
+}
+
+#imagen12{
+	width: 80%;
+	float: right;
+	filter: sepia(90);
+}
+
+#imagen13{
+	width: 80%;
+	height: 20%;
+	filter: grayscale(100%);
+}
+
+#imagen14{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagen15{
+	width: 80%;
+	float: right;
+	filter: grayscale(100%);
+}
+
+#fotospaisajes{
+	background: #d5c75f;
+}
+
+#fotosretratos{
+	background: #d5c75f;
+}
+
+
+@media all (min-width: 800px) {
+	.c1{
+		width: 100%;
+		position: 1;
+	}
+
+	.c2{
+		width: 100%;
+		position: 2;
+	}
+
+	.c3{
+		width: 100%;
+		position: 3;
+	}
+
+	.c4{
+		width: 100%;
+		position: 4;
+	}
+
+	.c5{
+		width: 100%;
+		position: 5;
+	}
+
+.c6{
+		width: 100%;
+		position: 6;
+	}
+
+	.c7{
+		width: 100%;
+		position: 7;
+	}
+
+	.c8{
+		width: 100%;
+		position: 8;
+	}
+
+	.c9{
+		width: 100%;
+		position: 9;
+	}
+}
