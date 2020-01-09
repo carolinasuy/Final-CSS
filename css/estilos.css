@@ -14,7 +14,7 @@ body {
 	animation: slide 1s;
 }
 
-@keyframes slide{
+@-webkit-keyframes slide{
 	0%   {margin-top: 150%;}
 	60%  {margin-top: -5%;}
 	100% {margin-top: 100%;}
