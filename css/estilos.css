@@ -71,7 +71,7 @@ img{
 #imgsecder{
 	border: solid #d5c75f;
 	width: 40%;
-	height: 34%;
+	height: 36%;
 }
 
 
@@ -93,37 +93,25 @@ img{
 	filter: drop-shadow(2px 2px 2px #82c3a6);
 }
 
+.c4, .c5{
+	display: inline;
+}
+
+.c6, .c7, .c8, .c9{
+	display: inline;
+}
+
+
+.secundarias{
+
+}
+
 footer {
 	background: #C6d5c5;
-	margin-top: 15px;
-	text-align: center;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
-#footer{
-	white-space: nowrap;
-}
-
-#Contacto{
-	width: 25%;
-}
-
-#terminos{
-	width: 23%;
-}
-
-#redes{
-	width: 29%;
-}
-
-#derechos{
-	width: 29%;
-}
-
-#imagenessecundarias{
-	background: #d5c75f	;
-}
 
 #img4{
 	width: 33%;
