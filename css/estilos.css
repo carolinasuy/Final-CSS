@@ -1,10 +1,10 @@
 @font-face {
-	font-family: Dancing Script;
+	font-family: 'Dancing Script', cursive;
 }
 
 body {
 	margin-left: 15%;
-	font-family: Dancing Script;
+	font-family: 'Dancing Script', cursive;
 	color: #605B56;
 	background: #02010a;
 	margin-right: 15%;
@@ -24,7 +24,7 @@ header{
 	background-color: #5b7989;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	font-family: Dancing Script;
+	font-family: 'Dancing Script', cursive;
 	color: #FFFFFF;
 	height: 60px;
 }
@@ -121,7 +121,12 @@ footer {
 
 .c6, .c7, .c8, .c9{
 	display: inline-block;
-	width: 24%;
+	width: 22%;
+
+}
+
+.c6, .c9{
+	margin-left: 2%;
 }
 
 
@@ -253,4 +258,96 @@ footer {
 
 #fotosretratos{
 	background: #d5c75f;
+}
+
+@media screen and (max-width:899px){
+	.c1, .c2{
+		display: block;
+	}
+
+	header{
+		height: 80px;
+	}
+
+	.c2{
+		text-align: center;
+		margin-left: 1%;
+		display:block;
+		}
+
+	.c6, .c7, .c8, .c9{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.c3, .c4, .c5{
+		display: block;
+		width: 100%;
+	}
+
+#centralimg{
+	width: 90%;
+}
+
+#imgsecizq{
+	width: 90%;
+	margin-left: 4%;
+}
+
+#imgsecder{
+	width: 90%;
+	margin-left: 4%;
+}
+
+#img4{
+	display: block;
+	width: 100%;
+}
+
+#img5{
+	display: block;
+	width: 100%;
+}
+
+#img6{
+	display: block;
+	width: 100%;
+}
+
+#img7{
+	display: block;
+	width: 100%;
+}
+
+#img8{
+	display: block;
+	width: 100%;
+}
+
+#img9{
+	display: block;
+	width: 100%;
+}
+
+#imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9{
+	width: 90%;
+	margin-left: 2%;
+}
+
+#imagen6, #imagen9{
+	margin-left: 0%;
+	margin-right: 8%;
+}
+
+#imagen10, #imagen11, #imagen12, #imagen13, #imagen14, #imagen15{
+	width: 90%;
+	margin-left: 2%;
+}
+
+#imagen12, #imagen15{
+	margin-left: 0%;
+	margin-right: 8%;
+}
+
 }
